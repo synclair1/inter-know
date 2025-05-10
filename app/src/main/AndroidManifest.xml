@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <queries>
+        <package android:name="com.google.android.youtube" />
+        <package android:name="com.android.chrome" />
+        <package android:name="com.google.android.gm" /> <!-- Gmail -->
+        <package android:name="com.google.android.googlequicksearchbox" /> <!-- Google app -->
+        <package android:name="com.android.vending" /> <!-- Google Play Store -->
+        <package android:name="com.google.android.apps.maps" /> <!-- Google Maps -->
+        <package android:name="com.google.android.calendar" /> <!-- Google Calendar -->
+        <package android:name="com.google.android.contacts" />
+        <package android:name="com.google.android.dialer" />
+        <package android:name="com.google.android.apps.photos" /> <!-- Google Photos -->
+        <package android:name="com.google.android.keep" /> <!-- Google Keep -->
+        <package android:name="com.google.android.apps.docs" /> <!-- Google Docs -->
+        <package android:name="com.google.android.apps.sheets" /> <!-- Google Sheets -->
+        <package android:name="com.google.android.apps.slides" /> <!-- Google Slides -->
+        <package android:name="com.google.android.music" /> <!-- Google Play Music (deprecated but still on old devices) -->
+        <package android:name="com.google.android.talk" /> <!-- Google Hangouts -->
+        <package android:name="com.google.android.apps.messaging" /> <!-- Android Messages -->
+        <package android:name="com.google.android.inputmethod.latin" /> <!-- Gboard -->
+        <package android:name="com.google.android.gms" /> <!-- Google Play Services -->
+        <package android:name="com.google.android.play.games" /> <!-- Google Play Games -->
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FullInterknow"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FullInterknow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617660372476",
+    "project_id": "interknow-monile",
+    "storage_bucket": "interknow-monile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617660372476:android:e310a7712dc39fddd2ce79",
+        "android_client_info": {
+          "package_name": "com.example.fullinterknow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVfDCH7RTI_D8qvtZCcAtwjD9rk9ZPei0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
